@@ -17,5 +17,5 @@ __Step 2:__ Put your right hand on top of your new phone.
 __Step 3:__ Put your left hand on top of Tal's chamber.
 ![img](img/nuke.gif)
 
-__Step 4:__ Wait for 1~2 seconds and see what Tal has to say. (Probably a corny movie quote.)
-
+__Step 4:__ Wait for 1~2 seconds and see what Tal has to say. (Probably some corny movie quotes.)
+![img](img/screen.gif)
