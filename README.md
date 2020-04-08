@@ -9,13 +9,13 @@ Born in th mid 2000s, Tal is Billy's first phone, in the age of exponential grow
 
 ### Work with Tal
 
-__Step 1:__ Place your new phone beside Tal. (Preferably to its right.)
+#### __Step 1:__ Place your new phone beside Tal. (Preferably to its right.)
 
-__Step 2:__ Put your right hand on top of your new phone.
+#### __Step 2:__ Put your right hand on top of your new phone.
 ![img](img/phone.gif)
 
-__Step 3:__ Put your left hand on top of Tal's chamber.
+#### __Step 3:__ Put your left hand on top of Tal's chamber.
 ![img](img/nuke.gif)
 
-__Step 4:__ Wait for 1~2 seconds and see what Tal has to say. (Probably some corny movie quotes.)
+#### __Step 4:__ Wait for 1~2 seconds and see what Tal has to say. (Probably some corny movie quotes.)
 ![img](img/screen.gif)
