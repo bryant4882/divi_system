@@ -16,7 +16,8 @@ void loop()
 
  long start = millis();
  long total1 = cs_4_2.capacitiveSensor(10);
- if (total1 > 280) {
+ //Serial.println(total1);
+ if (total1 > 300) {
  digitalWrite(LEDPin, HIGH);
  Serial.println(total1);
  delay(100);

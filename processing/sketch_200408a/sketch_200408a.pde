@@ -26,6 +26,7 @@ void draw()
   {
     val = myPort.readStringUntil('\n');
     println(val);
+    delay(2000);
     drawtext();
   }
   println("standing by");
@@ -36,5 +37,6 @@ void drawtext() {
 
   font = createFont("American Typewriter Regular.ttf", 24, true);
   textFont(font);
+  //delay(2000);
   text(answers[index], 300, height/2);
 }
