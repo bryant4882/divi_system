@@ -1,23 +1,23 @@
 import processing.serial.*;
 Serial myPort;
 String val;
-int index = int(random(0, 4));
+int index = int(random(0, 5));
 String[] answers= {
-"Frankly, my dear, I don't give a damn.", 
-"Louis, I think this is the beginning of a beautiful friendship.",
-"As if!",
-"You've got to ask yourself one question: 'Do I feel lucky?' Well, do ya, punk?", 
-"What we've got here is failure to communicate."
+  "Frankly, my dear, I don't give a damn.", 
+  "Louis, I think this is the beginning of a beautiful friendship.", 
+  "As if!", 
+  "You've got to ask yourself one question: 'Do I feel lucky?' Well, do ya, punk?", 
+  "What we've got here is failure to communicate.", 
+  "I see dead people."
 };
 PFont font;
 void setup()
 {
-   
-  size(1200,600);
+
+  size(1200, 600);
   background(0);
   String portName = Serial.list()[1];
   myPort = new Serial(this, portName, 9600);
-  
 } 
 
 void draw()
@@ -28,15 +28,13 @@ void draw()
     println(val);
     drawtext();
   }
- println("standing by");
- delay(70);
- 
+  println("standing by");
+  delay(70);
 }
 
-void drawtext(){
-  
-  font = createFont("f1.ttf", 16,true);
+void drawtext() {
+
+  font = createFont("American Typewriter Regular.ttf", 24, true);
   textFont(font);
-  text(answers[index],30, height/2);  
-  }
-  
+  text(answers[index], 300, height/2);
+}
